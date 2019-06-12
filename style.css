@@ -1,0 +1,46 @@
+p{
+    margin:0 auto;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 25%;
+    border-bottom: 2px solid rgba(95, 83, 83, 0.5);
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+h3 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.col {
+    border: 1px solid rgb(204, 199, 199); 
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+
+}
+
+.col:hover {
+    border-color: black;
+   
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+  .clear {
+    clear:both;
+  }
+
+
